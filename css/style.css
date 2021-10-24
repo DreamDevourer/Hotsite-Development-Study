@@ -1,0 +1,9 @@
+/* Web project based on my GitHub Repo: https://github.com/DreamDevourer/NKPS-Web-Project-Structure
+This is the main CSS file that imports every other CSS file from the project and renders to the front.
+*/
+
+@import "./2_tools/tools.css";
+@import "./4_base/base.css";
+@import "./5_objects/objects.css";
+@import "./6_components/components.css";
+@import "./7_trumps/trumps.css";

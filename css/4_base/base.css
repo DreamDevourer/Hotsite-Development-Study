@@ -1,0 +1,125 @@
+/*
+You are inside:
+
+4 - Base or Elements
+Base, also called Elements. This layer serves to stylize the most basic part of the elements. 
+No ids or classes here, only selectors of elements such as H1-H6 headings, a, buttons, etc.
+Usually used to make CSS reset.
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* typography set */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: Quicksand, sans-serif;
+  overflow-x: hidden;
+  word-break: break-word;
+}
+
+html[lang^='ja'] body,
+html[lang^='zh'] body,
+html[lang^='ko'] body {
+  line-break: strict;
+  word-break: break-all;
+}
+
+
+
+h1,
+h2,
+h3,
+h4 {
+  color: #051f46;
+  font-family: Quicksand, sans-serif;
+  margin: 10px 0;
+}
+
+h5,
+h6 {
+  color: #051f46;
+  font-family: Quicksand, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 3.75rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1.625rem;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  color: #9ea1a6;
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}

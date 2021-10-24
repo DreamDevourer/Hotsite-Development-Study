@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Hero designed by FreePik
+https://www.freepik.com/free-psd/landing-page-minimal-style-art-gallery-with-man_12216601.htm#page=1&query=hotsite&position=30&from_view=search
+
+Rest of the webpage designed by Nicolas Mendes.
+https://www.figma.com/file/9cDvOPsgj3mSWZTRcFYx1V/Project-Web-Design---Hotsite?node-id=0%3A1
+-->
+
+<!-- Developed by Nicolas Mendes Oct 24, 2021 
+🅰 - Head
+🔖 - Main Content
+👆 - Header
+🅱 - Body
+👇 - Footer
+-->
+
+
+
+
+<!-- 🅰 - Head -->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Hotsite | Nicolas Mendes</title>
+  <meta name="description" content="Hotsite made for PUCPR web design class.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <!-- Loading Bootstrap CSS -->
+  <link rel="stylesheet" href="misc/bootstrap/css/bootstrap.min.css">
+  <!-- Loading Owl Carousel-->
+  <link rel="stylesheet" href="misc/owl.carousel2/assets/owl.carousel.css">
+  <link rel="stylesheet" href="misc/owl.carousel2/assets/owl.theme.default.css">
+  <!-- Loading Modal Video-->
+  <link rel="stylesheet" href="misc/modal-video/css/modal-video.min.css">
+  <!-- Loading Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300" rel="stylesheet">
+  <!-- Loading Main Style -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="img/favicon.png">
+</head>
+
+<!-- 🔖 - Main Content -->
+
+<body>
+  <!-- 👆 - Header -->
+  <!-- navbar-->
+  <header class="header">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container"><a class="navbar-brand" href="#"><img src="img/mainLogo.svg" alt="" width="110"></a>
+        <!-- Mobile Menu -->
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <img class="hamburg-menu-mobile" src="img/hamMenu.svg" alt="Hamburguer Menu" width="30px" height="auto">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto" style="margin: auto;">
+            <li class="nav-item"><a class="nav-link link-scroll active" href="#hero">HOME<span
+                  class="sr-only">(current)</span></a></li>
+            <li class="nav-item"><a class="nav-link link-scroll" href="#about">PRODUCT</a></li>
+            <li class="nav-item"><a class="nav-link link-scroll" href="#services">STORE</a></li>
+            <li class="nav-item"><a class="nav-link link-scroll" href="#testimonials">ABOUT US</a></li>
+          </ul>
+          <img class="hamburg-menu" src="img/hamMenu.svg" alt="Hamburguer Menu" width="3%" height="auto">
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- 🅱 - Body -->
+  <!-- Hero -->
+  <section class="hero bg-top" id="hero" style="background: url(img/banner-4.png) no-repeat; background-size: 100% 80%">
+    <div class="container containerHero">
+      <div class="paragraphHero">
+        <p class="paragraphMain">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.
+        </p>
+        <p class="paragraphMain bold">Read More</p>
+      </div>
+      <div class="centerArea">
+        <img class="img-fluid blackWhite manCenter" src="img/manOnly.png" alt="Man on the center">
+        <img class="img-fluid" src="img/shapeOnly.png" alt="Decorative shape">
+      </div>
+      <div class="titleHero">
+        <h1 class="font-weight-bold heroOverlap">less is more.</h1>
+      </div>
+    </div>
+
+    <div class="container social-icons">
+      <a href="#" style="min-width: 40px; margin-right: 1rem;"><img src="img/facebook.svg" alt="Facebook"></a>
+      <a href="#" style="min-width: 40px; margin-right: 1rem;"><img src="img/insta.svg" alt="Instagram"></a>
+      <a href="#" style="min-width: 40px; margin-right: 1rem;"><img src="img/twitter.svg" alt="Twitter"></a>
+      <a href="#" style="min-width: 40px; margin-right: 1rem;"><img src="img/whatsapp.svg" alt="Whatsapp"></a>
+      <p class="container credit" style="margin: auto;">Nicolas & Theo</p>
+    </div>
+  </section>
+
+  <section class="bg-center py-0" id="about"
+    style="background: url(img/service-bg.svg) no-repeat; background-size: cover">
+    <section class="about py-0">
+      <div class="container">
+        <p class="h6 text-uppercase text-primary">PRODUCTS</p>
+        <h2 class="mb-5">What I do best</h2>
+        <div class="row pb-5">
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+            <!-- Services Item-->
+            <div class="card border-0 shadow rounded-lg py-4 text-left">
+              <div class="card-body p-5">
+                <span class="iconify" data-icon="bi:tv-fill" data-width="40"></span>
+                <h3 class="font-weight-normal h4 my-4">Watch Animes</h3>
+                <p class="text-small mb-0">Lorem ipsum dolor amet consectetur adipisicing sed do eiusmod tempor
+                  incididunt ut labore.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+            <!-- Services Item-->
+            <div class="card border-0 shadow rounded-lg py-4 text-left">
+              <div class="card-body p-5">
+                <span class="iconify" data-icon="mdi:duck" data-width="40"></span>
+                <h3 class="font-weight-normal h4 my-4">Be lazy at PUCPR</h3>
+                <p class="text-small mb-0">Lorem ipsum dolor amet consectetur adipisicing sed do eiusmod tempor
+                  incididunt ut labore.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <!-- Services Item-->
+            <div class="card border-0 shadow rounded-lg py-4 text-left">
+              <div class="card-body p-5">
+                <span class="iconify" data-icon="bytesize:code" data-width="40"></span>
+                <h3 class="font-weight-normal h4 my-4">Design and Code</h3>
+                <p class="text-small mb-0">Lorem ipsum dolor amet consectetur adipisicing sed do eiusmod tempor
+                  incididunt ut labore.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="with-pattern-1" id="services">
+      <div class="container">
+        <div class="row align-items-center mb-5">
+          <div class="col-lg-6 mb-5 mb-lg-0"><img class="img-fluid w-100 blackWhite"
+              style="border-radius: 1rem; width: 100% !important;" src="img/talkUnsplash.jpg"
+              alt="Talk Image decoration"></div>
+          <div class="col-lg-6">
+            <h2>Need help in a specific project? Let's talk!</h2>
+            <p class="text-muted">Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna
+              aliqua enim ad minim veniam quis nostrud exercitation.</p>
+            <button class="btn btn-primary js-modal-btn" data-video-id="B6uuIHpFkuo"><i
+                class="fas fa-play-circle mr-2"></i>Play video</button>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <h2>Hire me with these bundles</h2>
+            <p class="text-muted">Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna
+              aliqua enim ad minim veniam quis nostrud exercitation.</p>
+            <ul class="list-check">
+              <li class="text-muted mb-2">I will help to boost your project</li>
+              <li class="text-muted mb-2">I'm expert on Wordpress and HubSpot</li>
+              <li class="text-muted mb-2">SEO improvements</li>
+            </ul>
+            <button class="btn btn-primary js-modal-btn" data-video-id="B6uuIHpFkuo"><i
+                class="fas fa-play-circle mr-2"></i>Play video</button>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-lg-6 col-sm-6 mb-4">
+                <!-- Products -->
+                <div class="card border-0 shadow rounded-lg text-left px-2">
+                  <div class="card-body px py-5">
+                    <span class="iconify" data-icon="fluent:design-ideas-24-filled" data-width="40"></span>
+                    <h3 class="h5 font-weight-normal h4 my-3">Design</h3>
+                    <p class="text-small mb-0 text-muted">Lorem ipsum dolor amet consectetur adipisicing.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-6 mb-4">
+
+                <div class="card border-0 shadow rounded-lg text-left px-2">
+                  <div class="card-body px py-5">
+                    <span class="iconify" data-icon="bi:credit-card-2-front-fill" data-width="40"></span>
+                    <h3 class="h5 font-weight-normal h4 my-3">Front-end</h3>
+                    <p class="text-small mb-0 text-muted">Lorem ipsum dolor amet consectetur adipisicing.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-6 mb-4">
+
+                <div class="card border-0 shadow rounded-lg text-left px-2">
+                  <div class="card-body px py-5">
+                    <span class="iconify" data-icon="fluent:position-to-front-20-filled" data-width="40"></span>
+                    <h3 class="h5 font-weight-normal h4 my-3">Design + Frontend</h3>
+                    <p class="text-small mb-0 text-muted">Lorem ipsum dolor amet consectetur adipisicing. Lorem ipsum
+                      dolor</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-6">
+
+                <div class="card border-0 shadow rounded-lg text-left px-2">
+                  <div class="card-body px py-5">
+                    <span class="iconify" data-icon="fluent:window-dev-tools-20-filled" data-width="40"></span>
+                    <h3 class="h5 font-weight-normal h4 my-3">Full Stack Development</h3>
+                    <p class="text-small mb-0 text-muted">Lorem ipsum dolor amet consectetur adipisicing.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section class="p-0" id="testimonials"
+    style="background: url(img/testimonials-bg.png) no-repeat; background-size: 40% 100%; background-position: left center">
+    <div class="container text-center">
+      <p class="h6 text-uppercase text-primary">Testimonials</p>
+      <h2 class="mb-5">Happy Clients</h2>
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <div class="owl-carousel owl-theme testimonials-slider">
+            <div class="mx-3 mx-lg-5 my-5 pt-3">
+              <div class="card shadow rounded-lg px-4 py-5 px-lg-5 with-pattern bg-white border-0">
+                <div class="card-body index-forward pt-5 rounded-lg">
+                  <div class="testimonial-img"><img class="rounded-circle blackWhite" src="img/avatarFirst.jpg"
+                      alt="Testimonial from client 1" /></div>
+                  <p class="lead text-muted mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                  <h5 class="font-weight-bold mb-0">Jorel da Silva</h5>
+                  <p class="text-primary mb-0 text-small">Developer</p>
+                </div>
+              </div>
+            </div>
+            <div class="mx-3 mx-lg-5 my-5 pt-3">
+              <div class="card shadow rounded-lg px-4 py-5 px-lg-5 with-pattern bg-white border-0">
+                <div class="card-body index-forward pt-5 rounded-lg">
+                  <div class="testimonial-img"><img class="rounded-circle blackWhite" src="img/avatarSec.jpg"
+                      alt="Another great testimonial about my service." /></div>
+                  <p class="lead text-muted mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                  <h5 class="font-weight-bold mb-0">Carlos Pinto</h5>
+                  <p class="text-primary mb-0 text-small">CEO</p>
+                </div>
+              </div>
+            </div>
+            <div class="mx-3 mx-lg-5 my-5 pt-3">
+              <div class="card shadow rounded-lg px-4 py-5 px-lg-5 with-pattern bg-white border-0">
+                <div class="card-body index-forward pt-5 rounded-lg">
+                  <div class="testimonial-img"><img class="rounded-circle blackWhite" src="img/avatarThird.jpg"
+                      alt="" /></div>
+                  <p class="lead text-muted mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                  <h5 class="font-weight-bold mb-0">Rosane Nao-tinteresa</h5>
+                  <p class="text-primary mb-0 text-small">Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 👇 - Footer -->
+  <footer class="with-pattern-1 position-relative">
+    <div class="container section-padding-y">
+      <div class="row">
+        <div class="col-lg-3 mb-4 mb-lg-0"><img class="mb-4" src="img/mainLogo.svg" alt="" width="110">
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore.</p>
+        </div>
+        <div class="col-lg-2 mb-4 mb-lg-0">
+          <h2 class="h5 mb-4">Useful Links</h2>
+          <div class="d-flex">
+            <ul class="list-unstyled d-inline-block mr-4 mb-0">
+              <li class="mb-2"><a class="footer-link" href="#">Home</a></li>
+              <li class="mb-2"><a class="footer-link" href="#">Product</a></li>
+              <li class="mb-2"><a class="footer-link" href="#">Store</a></li>
+              <li class="mb-2"><a class="footer-link" href="#">About Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 mb-4 mb-lg-0">
+          <h2 class="h5 mb-4">Other Links</h2>
+          <div class="d-flex">
+            <ul class="list-unstyled mr-4 mb-0">
+              <li class="mb-2"><a class="footer-link" href="#">Home</a></li>
+              <li class="mb-2"><a class="footer-link" href="#">Product</a></li>
+              <li class="mb-2"><a class="footer-link" href="#">Store</a></li>
+              <li class="mb-2"><a class="footer-link" href="#">About Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <h2 class="h5 mb-4">Contact</h2>
+          <ul class="list-unstyled mr-4 mb-3">
+            <li class="mb-2 text-muted">R. Biboca Diagonal</li>
+            <li class="mb-2"><a class="footer-link" href="tel:9999-9999">41 9 9999-9999</a></li>
+            <li class="mb-2"><a class="footer-link" href="mailto:nicolas@pucpr.edu.br">nicolas@pucpr.edu.br</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="copyrights">
+      <div class="container text-center py-4">
+        <p class="mb-0 text-muted text-sm">&copy; 2021, PUCPR. Template by Nicolas Mendes.</p>
+      </div>
+    </div>
+  </footer>
+  <!-- Loading JavaScript here -->
+  <script src="misc/jquery/jquery.min.js"></script>
+  <script src="misc/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="misc/owl.carousel2/owl.carousel.min.js"></script>
+  <script src="misc/modal-video/js/modal-video.js"></script>
+  <script src="js/main.js"></script>
+  <!-- Loading Iconify to import SVG icons -->
+  <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+
+</body>
+
+</html>
