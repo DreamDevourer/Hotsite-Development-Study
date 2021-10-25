@@ -26,9 +26,6 @@ $(function () {
         dots: true
     });
 
-    // ================================================
-    //  MODAL VIDEO
-    // ================================================
     new ModalVideo('.js-modal-btn');
 
 
@@ -37,7 +34,7 @@ $(function () {
     // ================================================
     $('#scrollTop').on('click', function (e) {
         e.preventDefault();
-        $('html, body').animate({ scrollTop: 0}, 1000);
+        $('html, body').animate({ scrollTop: 0 }, 1000);
     });
 
     // ================================================
