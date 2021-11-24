@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="./LICENSE">License</a>
+  <a href="./LICENSE">License</a> | <a href="https://naughty-mahavira-30497a.netlify.app/">Preview Page</a>
 </p>
 
 <img src="./sample.png">
