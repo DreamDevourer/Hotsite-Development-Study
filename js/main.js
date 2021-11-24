@@ -1,3 +1,5 @@
+// Made by Nicolas Mendes
+// Using free libraries and code snippets
 $(function () {
 
     // ================================================
